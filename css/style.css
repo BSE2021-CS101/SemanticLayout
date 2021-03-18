@@ -1,0 +1,53 @@
+/* css reset */
+
+* {
+  margin :0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  color :orange;
+}
+
+header, footer {
+  background: black;
+  color : whitesmoke;
+  height : 200px;
+}
+
+main {
+  background: yellow;
+  color : black;
+}
+.row {
+  width : 100%;
+  height : 500px;
+}
+.col1{
+  width : 73%;
+  background: pink;
+  height : 450px;
+  margin : 0.5% 1%;
+  float : left;
+}
+
+.col2{
+  width : 23%;
+  background: lightgreen;
+  float : left;
+  height: 450px;
+  margin : 0.5% 1%;
+}
+
+.row :: after {
+  clear : both;
+  display: table;
+  content : "";
+}
+.article {
+  background: lightblue;
+  height: 200px;
+  border : 2px solid black;
+}
