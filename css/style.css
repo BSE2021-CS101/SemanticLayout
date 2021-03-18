@@ -7,47 +7,95 @@
 }
 
 body {
-  background: gray;
-  color :orange;
+  /* background: gray; */
+  /* color :orange; */
+  background: whitesmoke;
+}
+.container{
+  width: 80%;
+  margin: auto;
 }
 
 header, footer {
-  background: black;
-  color : whitesmoke;
+  /* background: black; */
+  /* color : whitesmoke; */
   height : 200px;
+  padding : 20px;
 }
 
 main {
-  background: yellow;
-  color : black;
+  /* background: yellow; */
+  /* color : black; */
 }
 .row {
   width : 100%;
-  height : 500px;
+  /* height : 500px; */
 }
-.col1{
-  width : 73%;
-  background: pink;
-  height : 450px;
-  margin : 0.5% 1%;
+.col{
+  width : 30%;
+  /* background: pink; */
+  /* height : 450px; */
+  margin : 0.5% 1.5%;
   float : left;
 }
 
-.col2{
-  width : 23%;
-  background: lightgreen;
-  float : left;
-  height: 450px;
-  margin : 0.5% 1%;
-}
 
 .row :: after {
   clear : both;
   display: table;
   content : "";
 }
-.article {
+/* .article {
   background: lightblue;
   height: 200px;
   border : 2px solid black;
+} */
+
+.homeImg{
+  height : 400px;
+  /* display: block;
+  margin:auto; */
+
+}
+.navLi {
+  list-style: none;
+  display: inline;
+  width : 120px;
+  height : 40px;
+  /* background: gray; */
+  color : black;
+  margin : 50px 20px;
+  padding: 10px;
+  font-size: 22px;
+  border : 1px solid black;
+}
+.logo{
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.navLink:link {
+   color : black;
+  /*background: black; */
+  text-decoration: none;
+  width : 120px;
+}
+
+.navLink:visited{
+  color: blue;
+  width: 120px;
+}
+
+.navLink:hover{
+  /* background: white;*/
+  color: blue;
+}
+.description {
+  color : black;
+  width: 80%;
+  line-height: 25px;
+  margin-top: 15px;
+}
+.product {
+  margin-bottom: 15px;
 }
